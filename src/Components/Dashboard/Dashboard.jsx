@@ -5,11 +5,11 @@ import Topbar from "./Topbar";
 function Dashboard() {
   return (
     <div className="w-full flex flex-row gap-0">
-      <div className="h-[100vh]">
+      <div className="h-[100vh] ">
         <Sidebar className="w-full" />
       </div>
-      <div className="w-full overflow-x-auto">
-        <Topbar />
+      <div className="w-full overflow-x-auto ">
+        <Topbar className="" />
         <Outlet />
       </div>
     </div>
